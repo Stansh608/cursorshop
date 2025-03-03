@@ -1,11 +1,11 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import './globals.css'
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
-});
+})
 
 export const metadata: Metadata = {
   title: 'StanTravels - Your Ultimate Travel Companion',
@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   authors: [{ name: 'Stan' }],
   creator: 'Stan',
   publisher: 'StanTravels',
-};
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
@@ -29,5 +29,5 @@ export default function RootLayout({
         </div>
       </body>
     </html>
-  );
-}
+  )
+} 
