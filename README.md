@@ -1,24 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Travel Blog Website
+
+A modern travel blog website built with Next.js and Tailwind CSS.
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone this repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Required Images
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Please add the following images to the `public` directory:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `santorini.jpg` - Image of Santorini, Greece
+- `machu-picchu.jpg` - Image of Machu Picchu, Peru
+- `bali.jpg` - Image of Bali, Indonesia
+- `paris.jpg` - Image of Paris, France
+- `tokyo.jpg` - Image of Tokyo, Japan
+- `new-york.jpg` - Image of New York City, USA
+
+You can use your own high-quality images or download free-to-use images from websites like:
+- [Unsplash](https://unsplash.com)
+- [Pexels](https://pexels.com)
+- [Pixabay](https://pixabay.com)
+
+Make sure the images are:
+- High quality (minimum 1200px width)
+- Landscape orientation
+- Properly compressed for web use
+- Relevant to the destination they represent
+
+## Features
+
+- Responsive navigation bar
+- Image carousel for featured destinations
+- Popular destinations section
+- Latest travel stories
+- Newsletter subscription
+- Footer with quick links
+- Mobile-friendly design
+
+## Technologies Used
+
+- Next.js 14
+- React
+- Tailwind CSS
+- TypeScript
 
 ## Learn More
 
