@@ -1,33 +1,34 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-  display: "swap",
-});
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "TravelBlog - Discover Your Next Adventure",
-  description: "Explore amazing destinations around the world with our expert travel guides and tips.",
+  title: 'StanTravels - Your Ultimate Travel Companion',
+  description: 'Discover amazing destinations around the world with StanTravels. Book your next adventure today!',
+  keywords: 'travel, destinations, tourism, vacation, holiday, adventure, booking',
+  authors: [{ name: 'Stan' }],
+  creator: 'Stan',
+  publisher: 'StanTravels',
 };
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
-      <body className="min-h-screen bg-white flex flex-col" suppressHydrationWarning>
-        {children}
+    <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </head>
+      <body className={inter.className}>
+        <div className="min-h-screen bg-white">
+          {children}
+        </div>
       </body>
     </html>
   );
