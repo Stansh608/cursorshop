@@ -31,7 +31,7 @@ export const destinations: { [key: string]: Destination } = {
       {
         name: 'Eiffel Tower',
         description: 'The iconic symbol of Paris, offering breathtaking views of the city.',
-        image: '/images/destinations/paris-eiffel-1.jpg'
+        image: 'https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?q=80&w=1200'
       },
       {
         name: 'Louvre Museum',

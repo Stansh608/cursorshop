@@ -82,7 +82,7 @@ export default function DestinationContent({ destination }: DestinationContentPr
           <h2 className="text-3xl font-bold mb-6 text-black">Must-Visit Attractions</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {destination.attractions.map((attraction, index) => (
-              <div key={index} className="rounded-lg overflow-hidden shadow-lg">
+              <div key={index} className="rounded-lg overflow-hidden shadow-lg border border-transparent hover:border-orange-500 transition-all duration-300">
                 <div className="relative h-64 overflow-hidden group">
                   <Image
                     src={attraction.image}

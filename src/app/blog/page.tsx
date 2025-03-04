@@ -134,7 +134,7 @@ export default function BlogPage() {
         {/* Hero Section */}
         <section className="relative h-[80vh] bg-black">
           <Image
-            src="/images/blog-hero.jpg"
+            src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1200"
             alt="StanTravels Hero"
             fill
             className="object-cover opacity-60"

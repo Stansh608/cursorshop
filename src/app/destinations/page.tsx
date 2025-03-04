@@ -13,8 +13,8 @@ const popularDestinations = [
     description: "A stunning volcanic island known for its white-washed buildings, blue-domed churches, and spectacular sunsets over the Aegean Sea. Experience luxurious clifftop hotels, pristine beaches, and world-class Mediterranean cuisine.",
     images: [
       "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=1200",
-      "https://images.unsplash.com/photo-1571406384350-d2cdb3607de4?q=80&w=1200",
-      "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=1200"
+      "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=1200",
+      "https://images.unsplash.com/photo-1571406384350-d2cdb3607de4?q=80&w=1200"
     ]
   },
   {

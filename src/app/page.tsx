@@ -4,6 +4,16 @@ import Footer from '@/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 
+const destinations = [
+  {
+    name: "Paris",
+    country: "France",
+    description: "The City of Light, featuring iconic landmarks like the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral.",
+    image: "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?q=80&w=1200"
+  },
+  // ... rest of the destinations ...
+];
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
@@ -21,9 +31,9 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8 text-center text-black">Popular Destinations</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Destination Card */}
-            <div className="rounded-lg overflow-hidden shadow-lg bg-white group">
+            <div className="rounded-lg overflow-hidden shadow-lg bg-white group border border-transparent hover:border-orange-500 transition-all duration-300">
               <div className="relative h-48 overflow-hidden">
-        <Image
+                <Image
                   src="/images/destinations/paris-banner.jpg"
                   alt="Paris"
                   fill
@@ -51,9 +61,9 @@ export default function Home() {
             </div>
 
             {/* Destination Card */}
-            <div className="rounded-lg overflow-hidden shadow-lg bg-white group">
+            <div className="rounded-lg overflow-hidden shadow-lg bg-white group border border-transparent hover:border-orange-500 transition-all duration-300">
               <div className="relative h-48 overflow-hidden">
-            <Image
+                <Image
                   src="/images/destinations/tokyo-banner.jpg"
                   alt="Tokyo"
                   fill
@@ -78,12 +88,12 @@ export default function Home() {
                   <span className="inline-block transition-transform duration-200 group-hover/link:translate-x-1 ml-1">→</span>
                 </Link>
               </div>
-        </div>
+            </div>
 
             {/* Destination Card */}
-            <div className="rounded-lg overflow-hidden shadow-lg bg-white group">
+            <div className="rounded-lg overflow-hidden shadow-lg bg-white group border border-transparent hover:border-orange-500 transition-all duration-300">
               <div className="relative h-48 overflow-hidden">
-          <Image
+                <Image
                   src="/images/destinations/new-york-banner.jpg"
                   alt="New York"
                   fill
