@@ -101,7 +101,7 @@ export default function Navbar() {
                 </span>
               </Link>
               <Link 
-                href="/contact" 
+                href="/#contact" 
                 className={`${
                   isActive('/contact')
                     ? 'text-orange-500 font-bold'
@@ -204,7 +204,7 @@ export default function Navbar() {
               </span>
             </Link>
             <Link 
-              href="/contact" 
+              href="/#contact" 
               className={`${
                 isActive('/contact')
                   ? 'text-orange-500 font-bold'
