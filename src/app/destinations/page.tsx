@@ -14,7 +14,7 @@ const popularDestinations = [
     images: [
       "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=1200",
       "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=1200",
-      "https://images.unsplash.com/photo-1571406384350-d2cdb3607de4?q=80&w=1200"
+      "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?q=80&w=1200"
     ]
   },
   {
@@ -33,8 +33,8 @@ const popularDestinations = [
     description: "A majestic mountain range offering world-class skiing, hiking trails, and picturesque villages. Experience breathtaking panoramic views, luxury chalets, and authentic Alpine culture.",
     images: [
       "https://images.unsplash.com/photo-1531210483974-4f8c1f33fd35?q=80&w=1200",
-      "https://images.unsplash.com/photo-1578681994506-b8f463449011?q=80&w=1200",
-      "https://images.unsplash.com/photo-1520235713369-76f70e6f9488?q=80&w=1200"
+      "https://images.unsplash.com/photo-1452784444945-3f422708fe5e?q=80&w=1200",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1200"
     ]
   }
 ];
@@ -66,8 +66,8 @@ const winterDestinations = [
     country: "Japan",
     description: "Winter wonderland featuring powder snow, hot springs, and winter festivals. Perfect for skiing, snowboarding, and experiencing Japanese culture.",
     images: [
-      "https://images.unsplash.com/photo-1542640244-7e672d6cef4e?q=80&w=1200",
-      "https://images.unsplash.com/photo-1579258151343-c9cb91837d34?q=80&w=1200"
+      "https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?q=80&w=1200",
+      "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?q=80&w=1200"
     ]
   },
   {
@@ -87,8 +87,8 @@ const beachDestinations = [
     country: "Seychelles",
     description: "Pristine beaches with granite boulders, turquoise waters, and tropical forests. Perfect for luxury beach holidays and nature exploration.",
     images: [
-      "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?q=80&w=1200",
-      "https://images.unsplash.com/photo-1589979481223-deb893043d60?q=80&w=1200"
+      "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?q=80&w=1200",
+      "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?q=80&w=1200"
     ]
   },
   {
